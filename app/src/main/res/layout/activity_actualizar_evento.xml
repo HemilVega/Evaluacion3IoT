@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ActualizarEventoActivity">
+
+    <!-- Titulo ActualizarEvento -->
+    <EditText
+        android:id="@+id/actualizarEvento"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ActualizarEvento"
+        android:textSize="50sp"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <!-- Campo para el nombre del evento -->
+    <EditText
+        android:id="@+id/etNombreActualizar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/UpdateEvento"
+        app:layout_constraintTop_toBottomOf="@id/actualizarEvento"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Campo para la fecha del evento -->
+    <EditText
+        android:id="@+id/etFechaActualizar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/FechaEvent"
+        app:layout_constraintTop_toBottomOf="@id/etNombreActualizar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Campo para la descripción del evento -->
+    <EditText
+        android:id="@+id/etDescripcionActualizar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/DescripEvento"
+        app:layout_constraintTop_toBottomOf="@id/etFechaActualizar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botón para guardar los cambios -->
+    <Button
+        android:id="@+id/btnGuardarCambios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Finish"
+        app:layout_constraintTop_toBottomOf="@id/etDescripcionActualizar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

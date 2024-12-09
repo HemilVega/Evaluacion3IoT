@@ -1,0 +1,64 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Titulo para Crear Evento -->
+    <EditText
+        android:id="@+id/Evento"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/TituloEvento"
+        android:textSize="50sp"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <!-- Campo para el nombre del evento -->
+    <EditText
+        android:id="@+id/etNombreEvento"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/NombreEvento"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Evento"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Campo para la fecha del evento -->
+    <EditText
+        android:id="@+id/etFechaEvento"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/FechaEvento"
+        app:layout_constraintTop_toBottomOf="@id/etNombreEvento"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Campo para la descripción del evento -->
+    <EditText
+        android:id="@+id/etDescripcionEvento"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/DescripcionEvento"
+        app:layout_constraintTop_toBottomOf="@id/etFechaEvento"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Botón para crear un evento -->
+    <Button
+        android:id="@+id/btnCrearEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/FinalizarEvento"
+        app:layout_constraintTop_toBottomOf="@id/etDescripcionEvento"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

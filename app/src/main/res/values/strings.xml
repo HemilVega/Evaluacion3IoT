@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Evaluacion3IoT</string>
+    <string name="InicioSesion">Iniciar Sesión</string>
+    <string name="Registrate">¿No estas registrado? Registrate</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="login">Login</string>
+    <string name="correo_electronico">Correo Electronico</string>
+    <string name="CorreoElectronico">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="IniciarSesion">Iniciar Sesión</string>
+    <string name="Register">Registrarse</string>
+    <string name="CrearEvento">Crear Evento</string>
+    <string name="crud">CRUD</string>
+    <string name="LeerEventos">Leer Eventos</string>
+    <string name="ActualizarEventos">Actualizar Evento</string>
+    <string name="EliminarEventos">Eliminar Evento</string>
+    <string name="CerrarSesion">Cerrar Sesión</string>
+    <string name="InfoCrearEvento">este botón nos permite crear todo tipo de eventos que creamos convenientes</string>
+    <string name="InfoLeerEvento">Con este botón somos capaces de observar todos los eventos ocurridos hasta el momento</string>
+    <string name="InfoActualizarEvento">Con este botón podemos modificar o actualizar el evento que queramos</string>
+    <string name="InfoEliminarEvento">Con este botón podemos eliminar cualquier evento que consideremos no apto</string>
+    <string name="NombreEvento">Nombre del Evento</string>
+    <string name="FechaEvento">Fecha del Evento</string>
+    <string name="DescripcionEvento">Descripción del Evento</string>
+    <string name="FinalizarEvento">Crear Evento</string>
+    <string name="TituloEvento">Crear Evento</string>
+    <string name="ListaEventos">Eventos Creados</string>
+    <string name="NameEvento">Nombre del Evento</string>
+    <string name="Fecha">Fecha</string>
+    <string name="Descripcion">Descripción</string>
+    <string name="UpdateEvento">Nombre del Evento</string>
+    <string name="ActualizarEvento">Actualizar Evento</string>
+    <string name="FechaEvent">Fecha del Evento</string>
+    <string name="DescripEvento">Descripción del Evento</string>
+    <string name="Finish">Guardar Cambios</string>
+    <string name="EliminarEvento">Eliminar</string>
+</resources>

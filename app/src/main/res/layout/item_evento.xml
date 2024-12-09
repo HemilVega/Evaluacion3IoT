@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Titulo CRUD -->
+    <TextView
+        android:id="@+id/CRUD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crud"
+        android:gravity="center"
+        android:textSize="40sp"/>
+
+    <!-- Nombre del evento -->
+    <TextView
+        android:id="@+id/tvNombreEvento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/NameEvento"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Fecha del evento -->
+    <TextView
+        android:id="@+id/tvFechaEvento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Fecha"
+        android:padding="8dp"/>
+
+    <!-- Descripción del evento -->
+    <TextView
+        android:id="@+id/tvDescripcionEvento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Descripcion"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/btnEliminarEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EliminarEvento"
+        android:layout_gravity="end"
+        android:padding="8dp"/>
+
+</LinearLayout>

@@ -1,0 +1,126 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Titulo CRUD -->
+    <TextView
+        android:id="@+id/CRUD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crud"
+        android:textSize="40sp"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <!-- Botón para crear un evento -->
+    <Button
+        android:id="@+id/btnCrear"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/CrearEvento"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/CRUD"
+        android:layout_marginTop="32dp" />
+
+    <!-- Información del botón crear evento -->
+    <TextView
+        android:id="@+id/InfoCrearBotón"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/InfoCrearEvento"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnCrear"/>
+
+    <!-- Botón para Leer Eventos -->
+    <Button
+        android:id="@+id/btnLeer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/LeerEventos"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnCrear"
+        android:layout_marginTop="75dp" />
+
+    <!-- Información del botón Leer Evento -->
+    <TextView
+        android:id="@+id/InfoLeerEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/InfoLeerEvento"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnLeer"/>
+
+    <!-- Botón para Actualizar un Evento -->
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ActualizarEventos"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnLeer"
+        android:layout_marginTop="75dp" />
+
+    <!-- Información del botón Actualizar Evento -->
+    <TextView
+        android:id="@+id/InfoActualizarEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/InfoActualizarEvento"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnActualizar"/>
+
+    <!-- Botón para Eliminar un Evento -->
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/EliminarEventos"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnActualizar"
+        android:layout_marginTop="75dp" />
+
+    <!-- Información del botón Eliminar Evento -->
+    <TextView
+        android:id="@+id/InfoEliminarEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/InfoEliminarEvento"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnEliminar"/>
+
+    <!-- Botón para Cerrar Sesión -->
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/CerrarSesion"
+        android:textSize="25sp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
